@@ -1,0 +1,154 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.placeholderContent {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+:root {
+    --color-smooth-white: #F5F5F5;
+    --color-white: white;
+    --color-soothing-dark-blue: #31525B;
+    --color-blazing-yellow: #FEEAA1;
+    --color-summer-yellow: #FDD45B;
+    --color-sunrise-orange: #FDB95D;
+    --color-autumn-orange: #FFA101;
+    --color-sunset-orange: #FF7D65;
+    --color-baby-blue-pink: #B3DEE5;
+    --color-leaf-green: #C0DE3A;
+    --color-forest-green: #A9D168;
+    --color-footer-background: #31525B;
+    --color-footer-title: #FAE6B1;
+    --color-footer-link: white;
+    --color-footer-link-hover: #FFA101;
+    --color-footer-social-icon: whitesmoke;
+    --color-header-background: var(--color-white);
+    --color-link: #1a0dab;
+    --color-link-hover: var(--color-autumn-orange);
+    --color-input-border: #ccc;
+    --color-button-background: #007BFF;
+    --color-button-background-hover: #0056b3;
+    --color-text-primary: #333;
+    --color-text-secondary: #61dafb;
+}
+
+.footer {
+    background-color: var(--color-soothing-dark-blue);
+    padding: 20px 0;
+    width: 100%;
+    height: 15vh
+}
+
+.fixed-footer {
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-title {
+    color: #FAE6B1;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.footer-link {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-logo {
+    width: auto;
+    height: 100px;
+}
+
+.header {
+    background-color: var(--color-white);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh
+}
+
+
+.header_l {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 10vh
+
+}
+
+
+.ant-card {
+    width: 100%;
+    height: 345px;
+}
+
+.card-image {
+    max-width: 100%;
+}
+
+.padding-top {
+    padding-top: 5vh;
+}
+
+.card-title {
+    font-size: 14pt;
+    text-align: center;
+}
+
+
+
+
+
+
+.ant-card {
+    height: 30vh; /* Dynamische Höhe */
+}
+
+.card-image {
+    height: 20vh; /* Bildhöhe dynamisch anpassen */
+}
+

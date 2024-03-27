@@ -12,7 +12,9 @@ export default function Size_home() {
 
     return (
         <div>
+            {size_m && <Home_L />}
             {size_l && <Home_L />}
+            {size_xl && <Home_L />}
         </div>
     )
 }

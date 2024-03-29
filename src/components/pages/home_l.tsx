@@ -1,12 +1,12 @@
 import React from 'react';
 import { Card, Col, Row } from 'antd';
 import './../../css/index.css';
-import logo_1 from "./../1.png";
-import logo_2 from "./../2.png";
-import logo_3 from "./../3.png";
-import logo_4 from "./../4.png";
-import logo_5 from "./../5.png";
-import logo_6 from "./../6.png";
+import logo_1 from "./../images/Automatisierte Schadbefundung an Güterwagons.png";
+import logo_2 from "./../images/KI-basierte Qualitätskontrolle beim Schweißen.png";
+import logo_3 from "./../images/KI-basierte Planung von Produktionsabläufen.png";
+import logo_4 from "./../images/Embeddings von Customer Journey Data.png";
+import logo_5 from "./../images/Bergisches Hochwasserwarnsystem.png";
+import logo_6 from "./../images/Neural Network Doctor.png";
 
 
 const { Meta } = Card;

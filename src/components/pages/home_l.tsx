@@ -27,7 +27,7 @@ export default function Home_L() {
             <Row className={"padding-top"} justify="space-evenly">
                 <Col span={6}>
                     <Card hoverable cover={<img className="card-image" alt="Modern Design" src={logo_1} />}
-                          onClick={() => handleCardClickNewTap('https://inspection-ai.tmdt.uni-wuppertal.de/home')}
+                          onClick={() => handleCardClickNewTap('https://inspection-ai.tmdt.uni-wuppertal.de/')}
                     >
                         <Meta title={<h1 className="card-title">Automatisierte Schadbefundung an Güterwagons</h1>} />
                     </Card>
